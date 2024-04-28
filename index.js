@@ -12,6 +12,6 @@ const app = express()
     const data = await product.find({})
     console.warn(data)
  }
-
+//  comment add for tasting
  connect()
  app.listen(5130)
